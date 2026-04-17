@@ -1,0 +1,17 @@
+.inputfiled {
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  width: 200px;
+  gap: 1rem;
+}
+
+.getData {
+  margin-top: 8rem;
+}
+
+.userDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 2 rem;
+}

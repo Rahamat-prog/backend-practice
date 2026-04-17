@@ -1,3 +1,5 @@
+// 🚀 Day 6: Step 3 — Fetch Data from Your Backend throung React - React → call your Express API → show users
+
 import { useState, useEffect } from 'react'
 
 import './App.css'
