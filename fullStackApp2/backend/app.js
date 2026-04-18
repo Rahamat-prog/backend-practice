@@ -4,12 +4,13 @@ const mongoose = require('mongoose');
 
 const userRouters = require('./routers/userRouters')
 
-
+// create instance of express
 const app = express();
 
 // middleware to convert the data into obj
 app.use(express.json());
 
+// to conenct with the server and frontend
 app.use(cors());
 
 // connect with the db
